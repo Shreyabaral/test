@@ -16,6 +16,10 @@ if not OPENAI_API_KEY:
 # Initialize the language model
 llm = OpenAI(model="text-davinci-003", temperature=0.7, openai_api_key=OPENAI_API_KEY)
 
+def add_func(a,b):
+    return(a+b)
+    
+
 # Load tools
 calculator_tool = get_calculator_tool()
 tools = [
