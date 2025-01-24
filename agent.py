@@ -22,6 +22,9 @@ def add_func(a,b):
 def sub(a,b):
     return (a-b)
 
+def mul(a,b):
+    return (a-b)
+
 # Load tools
 calculator_tool = get_calculator_tool()
 tools = [
