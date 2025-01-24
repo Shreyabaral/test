@@ -20,7 +20,7 @@ def add_func(a,b):
     return(a+b)
     
 def sub(a,b):
-    return (git a-b)
+    return (a-b)
 
 # Load tools
 calculator_tool = get_calculator_tool()
