@@ -19,6 +19,8 @@ llm = OpenAI(model="text-davinci-003", temperature=0.7, openai_api_key=OPENAI_AP
 def add_func(a,b):
     return(a+b)
     
+def sub(a,b):
+    return (git a-b)
 
 # Load tools
 calculator_tool = get_calculator_tool()
